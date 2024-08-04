@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <script src="https://kit.fontawesome.com/96c02e8d2e.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper" id="wrapper">
+        <div class="container">
+            <form action="">
+                <input type="text" id="searchbar" placeholder="Enter Name of City">
+                <button id="searchbtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <div class="weather hidden">
+                <p class="city"></p>
+                <div class="div2">
+                    <p class="temp"><span class="actualtemp"></span>&#x2103;</p>
+                    <img src="" alt="" id="image">
+                </div>
+                <p class="weatherof"></p>
+                <div class="date"></div>
+                <div class="wind_humidity">
+                    <div class="windbox">
+                        <i class="fa-solid fa-wind"></i><span class="wind"><h1><span class="actualwind"></span>Km/h</h1><p>Wind Speed</p></span>
+                    </div>
+                    <div class="humiditybox">
+                        <i class="fa-solid fa-water"></i><span class="humidity"><h1><span class="actualhumidity"></span>%</h1><p>Humidity</p></span>
+                    </div> 
+                </div>
+            </div>
+            <div class="notfound hidden">
+                <h2>OPPS! City Not Found</h2>
+                <img src="404.png" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
