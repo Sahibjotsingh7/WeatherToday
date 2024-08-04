@@ -1,0 +1,108 @@
+*{
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .wrapper {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("defoultbg.webp");
+        background-size: cover;
+    }
+    .container {
+        height: 500px;
+        width: 400px;
+        background-color: rgba(231, 238, 244, 0.3);
+        border-radius: 20px;
+        text-align: center;
+        padding: 20px;
+    }
+    input[type=text] {
+        background-color: transparent;
+        border: none;
+        margin: 20px 10px;
+        width: 220px;
+        border-radius: 50px;
+        padding: 10px 20px;
+        font-size: 15px;
+        color: black;
+        border: solid white 2px;
+    }
+    button {
+        background-color: transparent;
+        border: none;
+        border-radius: 50px;
+        padding: 5px;
+        font-size: 15px;
+        font-weight: bold; 
+        height: 40px;
+        width: 40px;
+        align-items: center;
+        justify-content: center;
+        border: solid white 2px;
+    }
+    .hidden {
+        display: none;
+    }
+    .weather img {
+        height: 100px;
+    }
+    .notfound h2 {
+        padding: 30px;
+    }
+    .notfound img {
+        height: 200px;
+        margin: 50px;
+    }
+    button:hover {
+        cursor: pointer;
+    }
+    .city {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 15px;
+        text-align: center;
+    }
+    .weatherof {
+        font-size: 30px;
+        margin: 15px;
+    }
+    .div2 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .temp {
+        font-size: 70px;
+        margin: -20px;
+    }
+    .windbox, .humiditybox {
+        display: flex;
+        text-align: left;
+    }
+    .wind_humidity {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+    .wind_humidity i {
+        font-size: 40px;
+        margin: 10px;
+    }
+    .wind h1, .humidity h1 {
+        font-size: 25px;
+    }
+    .wind p, .humidity p {
+        margin-top: -5px;
+    }
+    .date {
+        padding: 10px;
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
